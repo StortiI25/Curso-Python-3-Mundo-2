@@ -10,9 +10,9 @@ parcelas = casa / (anos * 12)
 salario_30 = salario * 0.30
 
 if parcelas > salario_30 :
-    print(f'as parcelas de {parcelas:.2f} excede 30% do seu salario ')
+    print(f'as parcelas de {parcelas:.2f} excede 30% do seu salario, EMPRESTIMO NEGADO! ')
 elif parcelas < salario_30:
-    print(f'As parcelas ficaram {parcelas:.2f} e 30% do seu salario é {salario_30} então Aproveite sua casa! ')
+    print(f'As parcelas ficaram {parcelas:.2f} e 30% do seu salario é {salario_30}, EMPRETISMO APROVADO! Aproveite sua casa.')
     
 
 

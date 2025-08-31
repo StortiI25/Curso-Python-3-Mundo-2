@@ -15,7 +15,7 @@ print (f'Quem naceu em {data} tem {idade} anos em {ano_atual}')
 
 if idade < 18:
     saldo = 18 - idade
-    ano_alist= ano_atual + saldo
+    ano_alist = ano_atual + saldo
     print(f'Ainda falta {saldo} ano(s) para o alistamento.')
     print(f'Seu alistamento sera em {ano_alist}')
 elif idade == 18:

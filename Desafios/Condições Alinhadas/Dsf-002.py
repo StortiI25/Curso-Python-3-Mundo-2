@@ -6,10 +6,10 @@
 
 num = int(input('Digite um numero: '))
 
-print('Escolhe a base de converção')
-print('[1] Binráia')
-print('[2] octal')
-print('[3] hexadecimal')
+print('''Escolhe a base de converção
+[1] Binráia
+[2] octal
+[3] hexadecimal''')
 
 opcao = int(input('Qual é sua opção? '))
 

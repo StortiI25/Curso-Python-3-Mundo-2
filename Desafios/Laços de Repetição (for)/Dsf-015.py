@@ -1,6 +1,6 @@
 #Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
-frase = input("Digite uma frase: ").strip().lower()
-frase_sem_espaco = frase.replace(" ", "")
+frase = input("Digite uma frase: ").strip().upper()
+frase_sem_espaco = frase.split()
 inverso = frase_sem_espaco[::-1]
 
 print(f"\nFrase sem espaço: {frase_sem_espaco}")

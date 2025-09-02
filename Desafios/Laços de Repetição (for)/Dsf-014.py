@@ -4,9 +4,14 @@ divisores = 0
 
 for i in range (1,num + 1):
     if num % i == 0:
+        print(f'\033[33m', end=" ")
         divisores += 1
+    else:
+        print('\033[31m', end=" ")
+    print(f'{i}', end=" ")
+print(f'\n\033[mO número {num} foi divisível {divisores} vezes')
 
 if divisores == 2:
-    print(f'{num} É um número primo ✅')
+    print(f'É um número primo ✅')
 else:
-    print(f'{num} Não é um número primo ❌')
+    print(f'Não é um número primo ❌')
